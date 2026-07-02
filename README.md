@@ -1,3 +1,3 @@
-﻿# commerce-tax-nexus-calculator-skill
+# commerce-tax-nexus-calculator-skill
 
-Ready to use SDK library for commerce-tax-nexus-calculator-skill.
+Production-ready agent skill for Legal tax nexus calculator.

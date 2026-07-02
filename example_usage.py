@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import TaxNexusCalculatorClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = TaxNexusCalculatorClient()
+    print(c.calculate_tax(100.0, "NY"))
 if __name__ == '__main__':
     main()
